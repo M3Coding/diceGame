@@ -45,10 +45,10 @@ document.querySelector(".img2").setAttribute("src", randomImage2);
 // }
 //Who wins
 if(randomNumber1 > randomNumber2) {
-    document.querySelector(".whoWins").textContent="Player 1 Wins!";
+    document.querySelector(".whoWins").textContent="Player 1 Wins!🚩";
 }
 else if(randomNumber1 < randomNumber2) {
-    document.querySelector(".whoWins").textContent="Player 2 Wins!";
+    document.querySelector(".whoWins").textContent="Player 2 Wins!🚩";
 }
 else {
     document.querySelector(".whoWins").textContent="Draw!";
